@@ -1,0 +1,145 @@
+/* Google Font - Poppons */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/* common styles or utilities */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.title-banner {
+  background-color: #2d25a0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+/* title and banner */
+.tournament-activities {
+  padding: 0 0 156px;
+}
+.tournament-title {
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+.btn:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease-out;
+}
+.link-button {
+  color: #ffffff;
+  background-color: #e02c6d;
+  padding: 13px 24px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+.fa-arrow-right {
+  width: 24px;
+  height: 24px;
+  padding-left: 8px;
+}
+.half-width {
+  min-width: 50%;
+}
+.half-width img {
+  width: 556.01px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.banner-image:hover {
+  transform: skew(10deg, 5deg);
+  transition: transform 1s ease-out;
+}
+
+/* Player Information */
+.about-player {
+  padding: 100px 0;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+}
+.player {
+  padding: 15px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.player .player-image img {
+  max-width: 100%;
+  padding-bottom: 16px;
+}
+.player-details h2 {
+  margin-bottom: 10px;
+  color: #18191f;
+}
+.player-details p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* extra item added */
+
+.match-updates {
+  margin-bottom: 30px;
+}
+.link-mail {
+  text-align: center;
+}
+.message-gap {
+  padding-bottom: 20px;
+}
+
+.video {
+  text-align: center;
+}
+.match-video {
+  padding-top: 20px;
+}
+.video iframe {
+  max-width: 100%;
+}
+
+/* footer social-sites */
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.football-logo img {
+  width: 483px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.social-sites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+  padding-bottom: 20px;
+}
+.about-copy-right {
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/* Media queries */
+
+/* In the css file I am using flex and grid properly, thats why I dont use Media Query */
